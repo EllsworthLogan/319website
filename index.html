@@ -5,157 +5,214 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Merchandise</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Content</title>
+    <link rel="stylesheet" href="/stylesheet.css">
+
 </head>
-<style>
-    #logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-    }
-
-    @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-            font-size: 3.5rem;
-        }
-    }
-</style>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example">
-            <div class="container-xl">
-                <a class="navbar-brand" href="https://www.laketimebrewery.com/">Lake Time Brewery</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarsExample07XL">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Merchandise</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="student_info.html">Team Members</a>
-                        </li>
-                    </ul>
+    <header id="navbar">
+        <span class="hamburger" onclick="toggleMobileMenu(this)">
+            <ul class="mobile-menu">
+                <li><a href=".\index.html">Home</a></li>
+                <li><a href=".\about.html">About</a></li>
+                <li><a href=".\ontap.html">Beers</a></li>
+                <li><a href=".\merch.html">Merch</a></li>
+                <li><a href=".\events.html">Events</a></li>
+                <li><a href=".\contact.html">Contact</a></li>
+            </ul>
+        </span>
+        <div id="home">
+            <a href="./index.html">Home</a>
+        </div>
+        <div id="about">
+            <div class="dropdown">
+                <a href="./about.html">About<i class="arrowdown"></i></a>
+                <div class="dropdown-content">
+                    <a href="#">Sustainability</a>
+                    <a href="#">News</a>
+                    <a href="#">Careers</a>
                 </div>
             </div>
-        </nav>
+        </div>
+        <div id="on-tap">
+            <div class="dropdown">
+                <a href="./ontap.html">Beers<i class="arrowdown"></i></a>
+                <div class="dropdown-content">
+                    <a href="#">On Tap</a>
+                    <a href="#">Distribution</a>
+                    <a href="#">Beer Finder</a>
+                </div>
+            </div>
+        </div>
+        <div id="logo">
+            <a href="./index.html"><img src="./images/logo.png" class="logo" alt="main_logo" href="./index.html"></a>
+        </div>
+        <div id="merch">
+            <a href="./merch.html">Merch</a>
+        </div>
+        <div id="events">
+            <a href="./events.html">Events</a>
+        </div>
+        <div id="contact">
+            <a href="./contact.html">Contact</a>
+        </div>
     </header>
+    <script src="main.js"></script>
 
     <main>
-        <section class="py-5 text-center container">
-            <div class="row py-lg-5">
-                <div class="col-lg-6 col-md-8 mx-auto">
-                    <img id="logo" src="images/Lake time Logo.png" alt="logo">
-                    <!-- <h1 class="fw-light">Lake Time Brewery</h1>
-                    <p class="lead text-muted">A State of Mind</p> -->
+        <div class="container">
+            <div class="row row-1">
+                <div class="item item-1">
+                    <div class="background-image">
+                        <div class="content">
+                            Peanut Butter Porter
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-
-        <div class="album py-5 bg-light">
-            <div class="container">
-
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./images/pint_glassware.jpeg" alt="pint glassware">
-                            <div class="card-body">
-                                <p class="card-text">Pint Glasswear (prices may vary)
-                                </p>
-                            </div>
+            <div class="row row-2">
+                <div class="item item-1">
+                    <div class="background-image">
+                        <div class="content">
+                            Find A Beer
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./images/gift_pack_pint.jpg" alt="gift pack pint">
-                            <div class="card-body">
-                                <p class="card-text">Pint Glasses Gift Pack (prices may vary)</p>
-                            </div>
+                </div>
+                <div class="item item-2">
+                    <div class="background-image">
+                        <div class="content">
+                            Sustainability
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./images/single_gift_pint.jpg" alt="single gift pint">
-                            <div class="card-body">
-                                <p class="card-text">Single Pint Glass Gift Pack (prices may vary)</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./images/tulips_samplers.jpeg" alt="tulips and samplers">
-                            <div class="card-body">
-                                <p class="card-text">Tulips and Samplers (prices may vary)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./images/two_boston_rounds.jpg" alt="two boston rounds">
-                            <div class="card-body">
-                                <p class="card-text">Boston Rounds with Travel Cases (prices may vary)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./images/lake_time_growler.jpg" alt="lake time growler">
-                            <div class="card-body">
-                                <p class="card-text">Growlers (prices may vary)</p>
-                            </div>
+                </div>
+                <div class="item item-3">
+                    <div class="background-image">
+                        <div class="content">
+                            Our Story
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row row-3">
+            <div class="item item-1">
+                <div class="background-image">
+                    <div class="content">
+                        The Taproom
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-4">
+            <div class="item item-1">
+                <div class="background-image">
+                    <div class="content">
+                        Calendar
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-5">
+            <div class="item item-1">
+                <div class="background-image">
+                    <div class="content">
+                        Careers
+                    </div>
+                </div>
+            </div>
+            <div class="item item-2">
+                <div class="background-image">
+                    <div class="content">
+                        Distribution
+                    </div>
+                </div>
+            </div>
+            <div class="item item-3">
+                <div class="background-image">
+                    <div class="content">
+                        Merch
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-6">
+            <div class="item item-1">
+                <div class="background-image">
+                    <div class="content">
+                        Follow Us
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+       
+        <footer>
+            <div id="left">
+                <div id="location-dot">
+                    <img src="./images/location-dot.svg" alt="location pin" width="75vw">
+                </div>
+                <div id="location">
+                    801 Main Avenue<br>
+                    Clear Lake, IA<br>
+                    (641) 357-2040<br>
+                </div>
+            </div>
+            <div id="middle">
+                <div id="clock">
+                    <img src="./images/clock.svg" alt="clock" width="95vw">
+                </div>
+                <div id="hours">
+                    <table>
+                        <!-- <th>Hours</td> -->
+                        <tr>
+                            <td>Wed</td>
+                            <td>4      pm - 9 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Thurs</td>
+                            <td>4      pm - 10pm</td>
+                        </tr>
+                        <tr>
+                            <td>Fri</td>
+                            <td>4      pm - 10pm</td>
+                        </tr>
+                        <tr>
+                            <td>Sat</td>
+                            <td>12pm - 10pm</td>
+                        </tr>
+                        <tr>
+                            <td>Sun</td>
+                            <td>12pm - 8 pm</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="right">
+                <table>
+                    <th></th>
+                    <tr>
+                        <td>Follow</td>
+                        <td>Us</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.facebook.com/laketimebrewery/?fref=ts" target="_blank"><img
+                                    src="./images/square-facebook.svg" alt="facebook" width="75vw"></a></td>
+                        <td><a href="https://www.instagram.com/laketimebrewery/" target="_blank"><img
+                                    src="./images/instagram.svg" alt="instagram" width="75vw"></a></td>
+                    </tr>
+                </table>
+            </div>
+        </footer>
+
+        <div id="absolute-footer">
+            <div id="llc">
+                © 2021-22 Lake Time Brewery
+            </div>
         </div>
 
     </main>
-
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <symbol id="facebook" viewBox="0 0 16 16">
-            <path
-                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-        </symbol>
-        <symbol id="instagram" viewBox="0 0 16 16">
-            <path
-                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-        </symbol>
-    </svg>
-
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-            <span class="mb-3 mb-md-0 text-muted" style="padding-left: 25px;">&copy; Lake Time Brewery</span>
-        </div>
-
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/laketimebrewery/"><svg class="bi"
-                        width="24" height="24" style="margin-right: 5px;">
-                        <use xlink:href="#instagram" />
-                    </svg></a></li>
-            <li class="ms-3"><a class="text-muted"
-                    href="https://www.facebook.com/pages/Lake-Time-Brewery/539130622766741?fref=ts"><svg class="bi"
-                        width="24" height="24" style="margin-right: 25px">
-                        <use xlink:href="#facebook" />
-                    </svg></a></li>
-        </ul>
-    </footer>
 
 </body>
 
