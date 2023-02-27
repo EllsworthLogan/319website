@@ -149,9 +149,9 @@ body {
     transition: all 0.3s ease;
   }
 
-  /*********************************************HOME MAIN******************************************************/
+   /*********************************************GLOBAL MAIN******************************************************/
 
-  .container {
+   .container {
     display: flex;
     flex-direction: column;
     gap: 0;
@@ -165,24 +165,74 @@ body {
     border-top: solid white 10px;
     display: flex;
   }
+
+  .item {
+    flex: 1 0 0;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
   
-  .row-1 {
+  .item .background-image {
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+  }
+  
+  .item .background-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  .item .background-image:hover::after {
+    opacity: 0.5;
+  } 
+
+  .item a {
+    display: block; /* Make the anchor tag fill the entire item container */
+    height: 100%; /* Make the anchor tag fill the entire item container */
+    text-decoration: none; /* Remove the default underline */
+    color: white; /* Set the text color to white */
+  }
+
+  /* .item a{
+    text-align: center;
+    
+
+    
+    text-decoration: none;
+    color: white;
+    font-size: 5vh;
+  } */
+  
+
+  /*********************************************HOME MAIN******************************************************/
+
+ .home > .row-1 {
     border-top: 0px;
   }
 
-  .row-1 > .item-1 > .background-image {
+  .home .row-1 > .item-1 > .background-image {
     background-image: url(/images/peanutButterPorterWinner.jpg);
+    opacity: 0.60;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
   }
   
-  .row-2 {
+  .home > .row-2 {
 
   }
 
-  .row-2 > .item-1 > .background-image {
+ .home > .row-2 > .item-1 > .background-image {
     background-image: url(/images/beer_table.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -190,10 +240,10 @@ body {
     height: 100%;
   }
 
-  .row-3 {
+  .home > .row-3 {
   }
 
-  .row-3 > .item-1 > .background-image {
+  .home > .row-3 > .item-1 > .background-image {
     background-image: url(/images/taproom_inside.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -201,13 +251,13 @@ body {
     height: 100%;
   }
 
-  .row-4 { 
+  .home > .row-4 { 
   }
 
-  .row-5 {
+  .home > .row-5 {
   }
 
-  .row-5 > .item-2 > .background-image {
+ .home > .row-5 > .item-2 > .background-image {
     background-image: url(/images/keg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -215,46 +265,49 @@ body {
     height: 100%;
   }
 
-  .row-6 {
+  .home > .row-6 {
   }
 
-  .row-7 {
+  .home > .row-7 {
   }
+
   
-  .item {
-    flex: 1 0 0;
-    background-color: #ddd;
-    margin: 0;
-    padding: 0;
-  }
-
+  
   /***********************************************ABOUT MAIN***********************************************/
-  #aboutGrid{
-    display: grid;
-    margin-top: 8px;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 500px 600px 600px;
-    
+
+  .about > .row-1 {
+    border-top: 0px;
   }
 
-  #about1{
-    border: 5px solid white;
-    grid-column: 1/3;
+  .about > .row-1 > .item-1 > .background-image {
+    background-image: url(images/4_beers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
   }
 
-  #about2{
-    border: 5px solid white;
+  .about > .row-2 {
   }
 
-  #about3{
-    border: 5px solid white;
+  .about > .row-2 > .item-1 > .background-image {
+    background-image: url(images/4_beers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
   }
 
-  #about4{
-    border: 5px solid white;
-    grid-column: 1/3;
+  .about > .row-2 > .item-2 > .background-image {
+    background-image: url(images/4_beers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
   }
 
+  .about > .row-3 {
+  }
 
   /**********************************************ON TAP MAIN***************************************************/
 
@@ -322,7 +375,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 200px;
+    height: 170px;
     background-color:rgb(95, 6, 6);
     color: white;
     position: relative;
@@ -330,6 +383,7 @@ footer {
     width: 100%;
     margin: 0px;
     padding: 0px; 
+    border-top: 5px solid rgb(221, 151, 75);
     /* margin-left: -8px;
     margin-right: -80px;  */
     /* border: 1px solid white; */
@@ -339,49 +393,86 @@ footer {
     display: flex;
     align-items: center;
     gap: 1vw ;
-    justify-content: space-around;
-    min-width: 150px;
+    justify-content: center;
+    min-width: 250px;
+    max-width: 400px;
+    min-height: 170px;
     /* border: 1px solid white; */
+}
+
+/* #location-dot{
+  border: 1px solid white;
+  align-content: right;
+} */
+
+#location {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  font-size: max(1.5vw, 16px);
+  border-radius: 10px;
+  padding: 10px;
+  /* border: 1px solid white; */
 }
 
 #middle {
     display: flex;
     align-items: center;
-    gap: 1vw ;
-    justify-content: space-around;
+    gap: 1vw;
+    min-width: 250px;
+    max-width: 400px;
+    min-height: 170px;
+    justify-content: center;
     /* border: 1px solid white; */
 }
 
-#right {
-    align-items: center;
-    border: 1px solid white;
-    font-family: 'Lucida Sans', Arial, sans-serif;
-    font-size: max(1.5vw, 16px);
-    max-width: 170px;
-}
-
-#location {
-    font-family: 'Lucida Sans', Arial, sans-serif;
-    font-size: max(1.5vw, 16px);
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 10px;
-}
-
 #hours {
-    font-family: 'Lucida Sans', Arial, sans-serif;
-    font-size: max(1.5vw, 16px);
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  font-size: max(1.5vw, 16px);
 }
 
 #hours table {
-    border-spacing: 1vw 0px;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 10px 0px 10px 0px;
+  border-spacing: 1vw 0px;
+  border-radius: 10px;
+  padding: 10px 0px 10px 0px;
+  /* border: 1px solid white; */
 }
 
 #clock {
-    /* width: max(100vw, 16px); */
+align-content: right;
+/* border: 1px solid white; */
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    min-width: 250px;
+    max-width: 400px;
+    min-height: 170px;
+    font-size: max(1.5vw, 16px);
+    /* border: 1px solid white; */
+}
+
+#socialImages {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border: 1px solid white;
+}
+
+#facebookImg{
+  align-items:right;
+  justify-content:right;
+  border: 1px solid white;
+}
+
+#instagramImg{
+  align-items:left;
+  justify-content: left;
+  border: 1px solid white;
+  
 }
 
 
@@ -396,9 +487,11 @@ footer {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    border-top: 1px solid white;
+    border-top: 2px solid rgb(221, 151, 75);
     flex-direction: row-reverse;
 }
+
+
 
 #llc {
     font-size: 100%;
