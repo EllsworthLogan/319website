@@ -1,209 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content</title>
-    <link rel="stylesheet" href="/stylesheet.css">
+    <link rel="stylesheet" href="/stylesheet.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header id="navbar">
-        <span class="hamburger" onclick="toggleMobileMenu(this)">
-            <ul class="mobile-menu">
-                <li><a href=".\index.html">Home</a></li>
-                <li><a href=".\about.html">About</a></li>
-                <li><a href=".\ontap.html">Beers</a></li>
-                <li><a href=".\merch.html">Merch</a></li>
-                <li><a href=".\events.html">Events</a></li>
-                <li><a href=".\contact.html">Contact</a></li>
-            </ul>
-        </span>
-        <div id="home">
-            <a href="./index.html">Home</a>
+      <span class="hamburger" onclick="toggleMobileMenu(this)">
+        <ul class="mobile-menu">
+          <li><a href=".\index.html">Home</a></li>
+          <li><a href=".\about.html">About</a></li>
+          <li><a href=".\ontap.html">Beers</a></li>
+          <li><a href=".\merch.html">Merch</a></li>
+          <li><a href=".\events.html">Events</a></li>
+          <li><a href=".\contact.html">Contact</a></li>
+        </ul>
+      </span>
+      <div id="home">
+        <a href="./index.html">Home</a>
+      </div>
+      <div id="about">
+        <div class="dropdown">
+          <a href="./about.html">About<i class="arrowdown"></i></a>
+          <div class="dropdown-content">
+            <a href="#">Sustainability</a>
+            <a href="#">News</a>
+            <a href="#">Careers</a>
+          </div>
         </div>
-        <div id="about">
-            <div class="dropdown">
-                <a href="./about.html">About<i class="arrowdown"></i></a>
-                <div class="dropdown-content">
-                    <a href="#">Sustainability</a>
-                    <a href="#">News</a>
-                    <a href="#">Careers</a>
-                </div>
-            </div>
+      </div>
+      <div id="on-tap">
+        <div class="dropdown">
+          <a href="./ontap.html">Beers<i class="arrowdown"></i></a>
+          <div class="dropdown-content">
+            <a href="#">On Tap</a>
+            <a href="#">Distribution</a>
+            <a href="#">Beer Finder</a>
+          </div>
         </div>
-        <div id="on-tap">
-            <div class="dropdown">
-                <a href="./ontap.html">Beers<i class="arrowdown"></i></a>
-                <div class="dropdown-content">
-                    <a href="#">On Tap</a>
-                    <a href="#">Distribution</a>
-                    <a href="#">Beer Finder</a>
-                </div>
-            </div>
-        </div>
-        <div id="logo">
-            <a href="./index.html"><img src="./images/logo.png" class="logo" alt="main_logo" href="./index.html"></a>
-        </div>
-        <div id="merch">
-            <a href="./merch.html">Merch</a>
-        </div>
-        <div id="events">
-            <a href="./events.html">Events</a>
-        </div>
-        <div id="contact">
-            <a href="./contact.html">Contact</a>
-        </div>
+      </div>
+      <div id="logo">
+        <a href="./index.html"
+          ><img
+            src="./images/logo.png"
+            class="logo"
+            alt="main_logo"
+            href="./index.html"
+        /></a>
+      </div>
+      <div id="merch">
+        <a href="./merch.html">Merch</a>
+      </div>
+      <div id="events">
+        <a href="./events.html">Events</a>
+      </div>
+      <div id="contact">
+        <a href="./contact.html">Contact</a>
+      </div>
     </header>
     <script src="main.js"></script>
 
     <main>
-        <div class="container home">
-            <div class="row row-1">
-                <div class="item item-1">
-                    <div class="background-image">
-                        <div class="content">
-                            Peanut Butter Porter
-                        </div>
-                    </div>
-                </div>
+      <div class="container home">
+        <div class="row row-1">
+          <!-- <a href="./ontap.html"> -->
+            <div class="item item-1" data-href="./ontap.html">
+              <div class="background-image">
+                <div class="content">Peanut Butter Porter</div>
+              </div>
             </div>
-            <div class="row row-2">
-                <div class="item item-1">
-                    <div class="background-image">
-                        <div class="content">
-                            Find A Beer
-                        </div>
-                    </div>
-                </div>
-                <div class="item item-2">
-                    <div class="background-image">
-                        <div class="content">
-                            Sustainability
-                        </div>
-                    </div>
-                </div>
-                <div class="item item-3">
-                    <div class="background-image">
-                        <div class="content">
-                            Our Story
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-3">
-                <div class="item item-1">
-                    <div class="background-image">
-                        <div class="content">
-                            The Taproom
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-4">
-                <div class="item item-1">
-                    <div class="background-image">
-                        <div class="content">
-                            Calendar
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-5">
-                <div class="item item-1">
-                    <div class="background-image">
-                        <div class="content">
-                            Careers
-                        </div>
-                    </div>
-                </div>
-                <div class="item item-2">
-                    <div class="background-image">
-                        <div class="content">
-                            Distribution
-                        </div>
-                    </div>
-                </div>
-                <div class="item item-3">
-                    <div class="background-image">
-                        <div class="content">
-                            Merch
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-6">
-                <div class="item item-1">
-                    <div class="background-image">
-                        <div class="content">
-                            Follow Us
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <!-- </a> -->
         </div>
+        <div class="row row-2">
+          <div class="item item-1" data-href="./ontap.html">
+            <div class="background-image">
+              <div class="content">Find A Beer</div>
+            </div>
+          </div>
+          <div class="item item-2" data-href="./about.html">
+            <div class="background-image">
+              <div class="content">Sustainability</div>
+            </div>
+          </div>
+          <div class="item item-3">
+            <div class="background-image" data-href="./about.html">
+              <div class="content">Our Story</div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-3">
+          <div class="item item-1" data-href="./ontap.html">
+            <div class="background-image">
+              <div class="content">The Taproom</div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-4" data-href="./events.html">
+          <div class="item item-1">
+            <div class="background-image">
+              <div class="content">Calendar</div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-5">
+          <div class="item item-1" data-href="./about.html">
+            <div class="background-image">
+              <div class="content">Careers</div>
+            </div>
+          </div>
+          <div class="item item-2" data-href="./about.html">
+            <div class="background-image">
+              <div class="content">Distribution</div>
+            </div>
+          </div>
+          <div class="item item-3" data-href="./merch.html">
+            <div class="background-image">
+              <div class="content">Merch</div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-6">
+          <div class="item item-1" data-href="https://www.facebook.com/laketimebrewery/?fref=ts">
+            <div class="background-image">
+              <div class="content">Follow Us</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
-        <div id="left">
-            <!-- <div id="location-dot"> -->
-            <img src="./images/location-dot.svg" alt="location pin" width="20%">
-            <!-- </div> -->
-            <div id="location">
-                801 Main Avenue<br>
-                Clear Lake, IA<br>
-                (641) 357-2040<br>
-            </div>
+      <div id="left">
+        <!-- <div id="location-dot"> -->
+        <img src="./images/location-dot.svg" alt="location pin" width="20%" />
+        <!-- </div> -->
+        <div id="location">
+          801 Main Avenue<br />
+          Clear Lake, IA<br />
+          (641) 357-2040<br />
         </div>
-        <div id="middle">
-            <!-- <div id="clock"> -->
-            <img src="./images/clock.svg" alt="clock" width="20%">
-            <!-- </div> -->
-            <div id="hours">
-                <table>
-                    <!-- <th>Hours</td> -->
-                    <tr>
-                        <td>Wed</td>
-                        <td>4 pm - 9 pm</td>
-                    </tr>
-                    <tr>
-                        <td>Thurs</td>
-                        <td>4 pm - 10pm</td>
-                    </tr>
-                    <tr>
-                        <td>Fri</td>
-                        <td>4 pm - 10pm</td>
-                    </tr>
-                    <tr>
-                        <td>Sat</td>
-                        <td>12pm - 10pm</td>
-                    </tr>
-                    <tr>
-                        <td>Sun</td>
-                        <td>12pm - 8 pm</td>
-                    </tr>
-                </table>
-            </div>
+      </div>
+      <div id="middle">
+        <!-- <div id="clock"> -->
+        <img src="./images/clock.svg" alt="clock" width="20%" />
+        <!-- </div> -->
+        <div id="hours">
+          <table>
+            <!-- <th>Hours</td> -->
+            <tr>
+              <td>Wed</td>
+              <td>4 pm - 9 pm</td>
+            </tr>
+            <tr>
+              <td>Thurs</td>
+              <td>4 pm - 10pm</td>
+            </tr>
+            <tr>
+              <td>Fri</td>
+              <td>4 pm - 10pm</td>
+            </tr>
+            <tr>
+              <td>Sat</td>
+              <td>12pm - 10pm</td>
+            </tr>
+            <tr>
+              <td>Sun</td>
+              <td>12pm - 8 pm</td>
+            </tr>
+          </table>
         </div>
-        <div id="right">
-            <div>Follow Us</div>
-            <div id="socialImages">
-                <div id="facebookImg"><a href="https://www.facebook.com/laketimebrewery/?fref=ts" target="_blank"><img
-                            src="./images/square-facebook.svg" alt="facebook" width="20%"></a></div>
-                <div id="InstagramImg"><a href="https://www.instagram.com/laketimebrewery/" target="_blank"><img
-                            src="./images/instagram.svg" alt="instagram" width="20%"></a></div>
-            </div>
+      </div>
+      <div id="right">
+        <div>Follow Us</div>
+        <div id="socialImages">
+          <div id="facebookImg">
+            <a
+              href="https://www.facebook.com/laketimebrewery/?fref=ts"
+              target="_blank"
+              ><img
+                src="./images/square-facebook.svg"
+                alt="facebook"
+                width="20%"
+            /></a>
+          </div>
+          <div id="InstagramImg">
+            <a href="https://www.instagram.com/laketimebrewery/" target="_blank"
+              ><img src="./images/instagram.svg" alt="instagram" width="20%"
+            /></a>
+          </div>
         </div>
+      </div>
     </footer>
 
     <div id="absolute-footer">
-        <div id="llc">
-            © 2021-22 Lake Time Brewery
-        </div>
+      <div id="llc">© 2021-22 Lake Time Brewery</div>
     </div>
-</body>
-
+  </body>
 </html>
