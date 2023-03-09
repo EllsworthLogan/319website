@@ -24,6 +24,43 @@ function toggleMobileMenu(menu){
     });
 
 //popuate the merch page
+// Fetch data from merch.json file
+fetch("merch.json")
+  .then(response => response.json()) // Parse JSON data
+  .then(products => {
+    // Select container element for merchandise
+    const merchContainer = document.getElementById("merch-container");
+
+    // Loop through each product and generate HTML
+    products.forEach(product => {
+      // Create new HTML elements for each product
+      const productDiv = document.createElement("div");
+      productDiv.classList.add("product");
+      const productImg = document.createElement("img");
+      productImg.classList.add("product-image");
+      const productName = document.createElement("h3");
+      productName.classList.add("product-name");
+      const productDesc = document.createElement("p");
+      productDesc.classList.add("product-description");
+
+      // Set content and attributes for each HTML element
+      productImg.src = product.image_path;
+      productName.textContent = product.name;
+      productDesc.textContent = product.short_description;
+
+      // Append each HTML element to the product div
+      productDiv.appendChild(productImg);
+      productDiv.appendChild(productName);
+      productDiv.appendChild(productDesc);
+
+      // Append product div to merchandise container
+      merchContainer.appendChild(productDiv);
+    });
+  })
+  .catch(error => {
+    console.error(error);
+  });
+
 
 
 
