@@ -1,0 +1,100 @@
+[
+    {
+      "name": "men's shirt",
+      "ID": 1,
+      "short_description": "Show off your love for craft beer with our Lake Time Brewery men's shirt. Perfect for any casual occasion, this comfortable and stylish shirt features our brewery's logo.",
+      "long_description": "Whether you're a craft beer enthusiast or just looking for a comfortable and stylish shirt, our Lake Time Brewery men's shirt is the perfect choice. Made from high-quality materials, this shirt is soft, breathable, and features our brewery's logo on the front. It's perfect for wearing to the brewery or for any casual occasion, and is sure to become a favorite among beer lovers.",
+      "image_path": "images/beer_table.jpg" 
+    },
+    {
+      "name": "women's shirt",
+      "ID": 2,
+      "short_description": "Our Lake Time Brewery women's shirt is the perfect way to show off your love for craft beer. Featuring a flattering fit and our brewery's logo, it's a stylish and comfortable choice for any casual occasion.",
+      "long_description": "Our Lake Time Brewery women's shirt is a stylish and comfortable garment that is perfect for beer-loving women. Made from premium materials, this shirt features a flattering fit and our brewery's logo on the front. Whether you're wearing it to the brewery or for any casual occasion, this shirt is sure to become a go-to in your wardrobe.",
+      "image_path": "images/beer_table.jpg" 
+    },
+    {
+      "name": "sweatshirt",
+      "ID": 3,
+      "short_description": "Stay cozy and stylish with our Lake Time Brewery sweatshirt. Perfect for cooler weather, it features our brewery's logo and a comfortable design.",
+      "long_description": "Our Lake Time Brewery sweatshirt is the perfect choice for staying cozy and stylish in cooler weather. Made from high-quality materials, this sweatshirt features our brewery's logo on the front and a comfortable design that's perfect for relaxing at home or hanging out at the brewery. It's sure to become a favorite among beer lovers.",
+      "image_path": "images/beer_table.jpg" 
+    },
+    {
+      "name": "men's stocking hat",
+      "ID": 4,
+      "short_description": "Keep warm and show off your love for craft beer with our Lake Time Brewery men's stocking hat. Featuring our brewery's logo, it's a stylish and comfortable choice for any cold day.",
+      "long_description": "Our Lake Time Brewery men's stocking hat is the perfect choice for keeping warm and stylish in cold weather. Made from high-quality materials, this hat features our brewery's logo and a comfortable design that's perfect for any outdoor activity. Whether you're hitting the slopes or just running errands, this hat is sure to become a go-to in your winter wardrobe.",
+      "image_path": "images/beer_table.jpg" 
+    },
+    {
+      "name": "women's stocking hat",
+      "ID": 5,
+      "short_description": "Our Lake Time Brewery women's stocking hat is the perfect choice for staying warm and stylish in cold weather. Featuring our brewery's logo, it's a must-have for any beer-loving woman.",
+      "long_description": "Our Lake Time Brewery women's stocking hat is a stylish and comfortable choice for staying warm in cold weather. Made from high-quality materials, this hat features our brewery's logo and a comfortable design that's perfect for any outdoor activity. Whether you're hitting the slopes or just running errands, this hat is sure to become a go-to in your winter wardrobe.",
+      "image_path": "images/beer_table.jpg" 
+    },
+    {
+      "name": "pint glasswear",
+      "ID": 6,
+      "short_description": "Enjoy your favorite beer in style with our Lake Time Brewery pint glassware. Featuring our brewery's logo, it's the perfect addition to any beer lover's collection.",
+      "long_description": "Our Lake Time Brewery pint glassware is the perfect way to enjoy your favorite beer in style. Made from high-quality glass, these pint glasses feature our brewery's logo and a classic design that's perfect for any occasion. Whether you're sipping a cold one at the brewery or enjoying a beer at home, these glasses are sure to become a go-to in your beer glass collection.",
+      "image_path": "images/beer_table.jpg" 
+    },
+    {
+      "name": "tulip glasswear",
+      "ID": 7,
+      "short_description": "Elevate your beer-drinking experience with our Lake Time Brewery tulip glassware. Featuring our brewery's logo, it's the perfect choice for any beer enthusiast.",
+      "long_description": "Our Lake Time Brewery tulip glassware is the perfect choice for elevating your beer-drinking experience. Made from high-quality glass, these glasses feature a unique tulip-shaped design that enhances the aroma and flavor of your beer. The front of the glass also features our brewery's logo, making it a stylish addition to any beer enthusiast's collection. Whether you're enjoying a Belgian ale or a hoppy IPA, these tulip glasses are sure to enhance your drinking experience.",
+      "image_path": "images/beer_table.jpg" 
+    },
+    {
+      "name": "sampler glasswear",
+      "ID": 8,
+      "short_description": "Our Lake Time Brewery sampler glassware set is the perfect way to try a variety of our beers. Featuring our brewery's logo, it's the perfect gift for any beer lover.",
+      "long_description": "Our Lake Time Brewery sampler glassware set is the perfect choice for trying a variety of our beers. This set includes four 5oz glasses, each featuring our brewery's logo and a unique design that's perfect for sampling different beers. It's a great gift for any beer lover, or a fun way to try a variety of our beers at the brewery.",
+      "image_path": "images/beer_table.jpg" 
+    },
+    {
+      "name": "single gift pint",
+      "ID": 9,
+      "short_description": "Give the gift of Lake Time Brewery with our single gift pint. Featuring our brewery's logo, it's the perfect way to share your love of craft beer.",
+      "long_description": "Our Lake Time Brewery single gift pint is the perfect way to share your love of craft beer with a friend or family member. Made from high-quality glass, this pint glass features our brewery's logo and a classic design that's perfect for any occasion. It's a great gift for any beer lover, or a fun way to commemorate a visit to the brewery.",
+      "image_path": "images/beer_table.jpg" 
+    },
+    {
+      "name": "giftpack pint",
+      "ID": 10,
+      "short_description": "Give the gift of Lake Time Brewery with our gift pack pint set. Featuring two pint glasses and our brewery's logo, it's the perfect choice for any beer love",
+      "long_description": "Our Lake Time Brewery gift pack pint set is the perfect gift for any beer lover. This set includes two pint glasses, each featuring our brewery's logo and a classic design that's perfect for any occasion. It's a great way to share your love of craft beer with a friend or family member, or to commemorate a visit to the brewery.",
+      "image_path": "images/beer_table.jpg" 
+    },
+    {
+      "name": "two boston rounds w/ travel case",
+      "ID": 11,
+      "short_description": "Take your favorite Lake Time Brewery beer on the go with our two Boston rounds w/ travel case. Featuring our brewery's logo, it's the perfect choice for any beer lover on the move.",
+      "long_description": "Our Lake Time Brewery two Boston rounds w/ travel case is the perfect choice for taking your favorite beer on the go. This set includes two 32oz Boston round bottles, each featuring our brewery's logo and a secure cap for preventing spills. The set also includes a convenient travel case for easy transport. It's a great way to enjoy your favorite beer wherever you go, whether it's to the beach, on a hike, or to a friend's house.",
+      "image_path": "images/beer_table.jpg" 
+    },
+    {
+      "name": "growler w/ travel case",
+      "ID": 12,
+      "short_description": "Enjoy your favorite Lake Time Brewery beer on the go with our growler w/ travel case. Featuring our brewery's logo, it's the perfect choice for any beer lover.",
+      "long_description": "Our Lake Time Brewery growler w/ travel case is the perfect choice for taking your favorite beer on the go. Made from high-quality glass, this 64oz growler features our brewery's logo and a secure cap for preventing spills. The set also includes a convenient travel case for easy transport. It's a great way to enjoy your favorite beer wherever you go, whether it's to the beach, on a hike, or to a friend's house.",
+      "image_path": "images/beer_table.jpg" 
+    },
+    {
+      "name": "growler gift set",
+      "ID": 13,
+      "short_description": "Give the gift of Lake Time Brewery with our growler gift set. Featuring a 64oz growler and two pint glasses, it's the perfect choice for any beer lover.",
+      "long_description": "Our Lake Time Brewery growler gift set is the perfect gift for any beer lover. This set includes a 64oz growler made from high-quality glass and featuring our brewery's logo, as well as two pint glasses with a classic design that's perfect for any occasion. It also comes with a secure cap for preventing spills and a convenient travel case for easy transport. It's a great way to share your love of craft beer with a friend or family member, or to commemorate a visit to the brewery.",
+      "image_path": "images/beer_table.jpg" 
+    },
+    {
+      "name": "cap",
+      "ID": 14,
+      "short_description": "Show your love for Lake Time Brewery with our stylish cap. Featuring our brewery's logo, it's the perfect accessory for any beer lover.",
+      "long_description": "Our Lake Time Brewery cap is the perfect accessory for any beer lover. Made from high-quality materials, this stylish cap features our brewery's logo and a classic design that's perfect for any occasion. It's a great way to show your love for craft beer and our brewery, whether you're visiting us in person or enjoying a beer at home. With an adjustable strap, it's also a comfortable and versatile accessory that you can wear all day long.",
+      "image_path": "images/beer_table.jpg" 
+    }
+  ]
