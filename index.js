@@ -24,7 +24,7 @@ function toggleMobileMenu(menu){
     });
 
 //popuate the merch page
-// Fetch data from merch.json file
+// Fetch data from data.json file
 fetch("data.json")
   .then(response => response.json()) // Parse JSON data
   .then(products => {

@@ -4,14 +4,14 @@
       "ID": 1,
       "short_description": "Show off your love for craft beer with our Lake Time Brewery men's shirt. Perfect for any casual occasion, this comfortable and stylish shirt features our brewery's logo.",
       "long_description": "Whether you're a craft beer enthusiast or just looking for a comfortable and stylish shirt, our Lake Time Brewery men's shirt is the perfect choice. Made from high-quality materials, this shirt is soft, breathable, and features our brewery's logo on the front. It's perfect for wearing to the brewery or for any casual occasion, and is sure to become a favorite among beer lovers.",
-      "image_path": "images/lots_of_shirts.jpg" 
+      "image_path": "images/merch/lots_of_shirts.jpg" 
     },
     {
       "name": "women's shirt",
       "ID": 2,
       "short_description": "Our Lake Time Brewery women's shirt is the perfect way to show off your love for craft beer. Featuring a flattering fit and our brewery's logo, it's a stylish and comfortable choice for any casual occasion.",
       "long_description": "Our Lake Time Brewery women's shirt is a stylish and comfortable garment that is perfect for beer-loving women. Made from premium materials, this shirt features a flattering fit and our brewery's logo on the front. Whether you're wearing it to the brewery or for any casual occasion, this shirt is sure to become a go-to in your wardrobe.",
-      "image_path": "images/womenShirtTemp.jpg" 
+      "image_path": "images/merch/sweatshirt.jpg" 
     },
     {
       "name": "sweatshirt",
